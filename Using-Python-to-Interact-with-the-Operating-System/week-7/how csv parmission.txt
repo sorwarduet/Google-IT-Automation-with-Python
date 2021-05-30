@@ -1,0 +1,2 @@
+sudo chmod +x csv_to_html.py
+sudo chmod  o+w /var/www/html
