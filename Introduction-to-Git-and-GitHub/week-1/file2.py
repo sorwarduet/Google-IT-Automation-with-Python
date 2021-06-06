@@ -9,3 +9,4 @@ for line in f.readlines():
     name = old_name.replace("jane", "jdoe")
     subprocess.run(["mv", old_name, name])
 f.close()
+sys.exit(1)
